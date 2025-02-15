@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stepci/stepci.git"
+    "url": "git+https://github.com/sakazuki/stepci.git"
   },
   "keywords": [
     "http",
