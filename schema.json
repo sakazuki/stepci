@@ -588,6 +588,10 @@
                                     "properties": {},
                                     "type": "object"
                                 },
+                                "jsonata": {
+                                    "additionalProperties": {},
+                                    "type": "object"
+                                },
                                 "jsonpath": {
                                     "anyOf": [
                                         {
@@ -1302,6 +1306,22 @@
                                         "type": "object"
                                     },
                                     {
+                                        "properties": {
+                                            "json": {
+                                                "additionalProperties": true,
+                                                "properties": {},
+                                                "type": "object"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    {
                                         "type": "string"
                                     }
                                 ]
@@ -1910,6 +1930,10 @@
                                 "json": {
                                     "additionalProperties": true,
                                     "properties": {},
+                                    "type": "object"
+                                },
+                                "jsonata": {
+                                    "additionalProperties": {},
                                     "type": "object"
                                 },
                                 "jsonpath": {
@@ -3182,6 +3206,10 @@
                                 "json": {
                                     "additionalProperties": true,
                                     "properties": {},
+                                    "type": "object"
+                                },
+                                "jsonata": {
+                                    "additionalProperties": {},
                                     "type": "object"
                                 },
                                 "jsonpath": {
