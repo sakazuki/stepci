@@ -233,6 +233,9 @@
                                     "header": {
                                         "type": "string"
                                     },
+                                    "jsonata": {
+                                        "type": "string"
+                                    },
                                     "jsonpath": {
                                         "type": "string"
                                     },
@@ -1577,6 +1580,9 @@
                                     "header": {
                                         "type": "string"
                                     },
+                                    "jsonata": {
+                                        "type": "string"
+                                    },
                                     "jsonpath": {
                                         "type": "string"
                                     },
@@ -2851,6 +2857,9 @@
                                         "type": "string"
                                     },
                                     "header": {
+                                        "type": "string"
+                                    },
+                                    "jsonata": {
                                         "type": "string"
                                     },
                                     "jsonpath": {
