@@ -10,7 +10,7 @@ tests:
           check:
             jsonata:
               # Simple way
-              check1: $count($) = 1000
+              $count($): 100
               # By returning a CheckResult object, the specific reasons for errors become more transparent and easier to understand.
               # ex: { "expected": 9, "given": 10, "passed": false }
               check2: |
@@ -23,3 +23,5 @@ tests:
                     "passed": ($expected = $given)
                   }
                 )
+              # The same as check2
+              $count($[userId=1]): 10
